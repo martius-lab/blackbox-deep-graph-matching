@@ -1,0 +1,7 @@
+{
+  "default_json": "experiments/voc_basic.json",
+  "train_sampling": "all",
+  "eval_sampling": "all",
+  "visualize": true,
+  "model_dir": "results/voc_all_keypoints"
+}

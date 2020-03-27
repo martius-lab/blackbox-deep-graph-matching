@@ -1,0 +1,11 @@
+{
+  "default_json": "experiments/voc_basic.json",
+  "DATASET_NAME": "WillowObject",
+  "TRAIN": {
+    "EPOCH_ITERS": 100,
+    "lr_schedule": "short_halving"
+  },
+  "EVAL": {
+    "SAMPLES": 100
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "default_json": "experiments/voc_basic.json",
+  "DATASET_NAME": "WillowObject",
+  "evaluate_only": true,
+  "warmstart_path": "results/cached_weights/params/0010",
+  "EVAL": {
+    "SAMPLES": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "default_json": "experiments/voc_basic.json",
+  "DATASET_NAME": "SPair71k",
+  "model_dir": "results/spair",
+  "TRAIN": {
+    "EPOCH_ITERS": 400,
+    "difficulty_params": {
+    }
+  },
+  "EVAL": {
+    "SAMPLES": null,
+    "difficulty_params": {
+    }
+  },
+  "visualize": true,
+  "visualization_params": {
+    "reduced_vis": true,
+    "produce_pdf": false
+  },
+  "combine_classes": false
+}

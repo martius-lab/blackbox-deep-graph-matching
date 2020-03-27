@@ -1,0 +1,13 @@
+{
+  "default_json": "experiments/voc_basic.json",
+  "model_dir": "results/cached_weights",
+  "save_checkpoint": true,
+  "exclude_willow_classes": true,
+  "TRAIN": {
+    "lr_schedule": "long_nodrop"
+  },
+  "EVAL": {
+    "SAMPLES": 50
+  },
+  "visualize": false
+}

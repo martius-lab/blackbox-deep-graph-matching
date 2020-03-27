@@ -1,0 +1,36 @@
+{
+  "BATCH_SIZE": 8,
+  "DATASET_NAME": "PascalVOC",
+  "exclude_willow_classes": false,
+  "EVAL": {
+    "SAMPLES": 1000,
+    "num_graphs_in_matching_instance": 2
+  },
+  "BB_GM": {
+    "lambda_val": 80.0,
+    "solver_name": "lpmp",
+    "solver_params": {
+      "timeout": 1000,
+      "primalComputationInterval": 10,
+      "maxIter": 100
+    }
+  },
+  "train_sampling": "intersection",
+  "eval_sampling": "intersection",
+  "save_checkpoint": false,
+  "RANDOM_SEED": 123,
+  "warmstart_path": null,
+  "TRAIN": {
+    "EPOCH_ITERS": 2000,
+    "LR": 0.002,
+    "lr_schedule": "long_halving",
+    "num_graphs_in_matching_instance": 2
+  },
+  "STATISTIC_STEP": 20,
+  "visualize": true,
+  "visualization_params": {
+    "reduced_vis": true
+  },
+  "evaluate_only": false,
+  "model_dir": "results/voc_basic"
+}
