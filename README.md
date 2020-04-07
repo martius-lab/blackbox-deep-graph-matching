@@ -7,7 +7,7 @@ It also contains the configuration files to reproduce the numbers reported in th
  * **Willow** Pre-training on PascalVOC and fine tuning on Willow can be controlled separately
  * **SPair-71k** With the default *intersection* keypoint filetering.
  
-See also the [LPMP repository](https://github.com/LPMP/LPMP) with the combinatorial solvers for graph matching and multi-graph matching as well corresponding PyTorch modules. The solvers were made differentiable via [Differentiation of Blackbox Combinatorial Solvers](https://openreview.net/forum?id=BkevoJSYPB)  
+See also the [LPMP repository](https://github.com/LPMP/LPMP) with the combinatorial solvers for graph matching and multi-graph matching as well corresponding PyTorch modules. The solvers were made differentiable via [blackbox-backprop](https://github.com/martius-lab/blackbox-backprop) ([Differentiation of Blackbox Combinatorial Solvers](https://openreview.net/forum?id=BkevoJSYPB))  
 
 Sheep |  Chair  |  Airplane    
 :-------------------------:|:-------------------------:|:-------------------------:
