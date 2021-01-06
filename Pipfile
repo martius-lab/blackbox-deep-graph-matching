@@ -11,7 +11,7 @@ scipy = "==1.4.1"
 easydict = "==1.9"
 torch = "==1.4.0"
 torchvision = "==0.5.0"
-lpmp_py = {git = "https://github.com/mrolinek/LPMP.git"}
+lpmp_py = {git = "https://github.com/lpmp/lpmp.git"}
 torch-geometric = {git = "https://github.com/rusty1s/pytorch_geometric.git",ref = "master"}
 torch-sparse = "*"
 torch-scatter = "*"
