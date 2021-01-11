@@ -19,6 +19,7 @@ Sheep |  Chair  |  Airplane
 1. Check if findutils (>=4.7.0) is available
 1. Check if hdf5 is installed (``apt install libhdf5-serial-dev``)
 1. Check if cuda 10.1 and cudnn 7 are available
+1. Check if texlive-latex-extra is installed (``apt install texlive-latex-extra``)
 1. Run ``pipenv install`` (at your own risk with `--skip-lock` to save some time).
 1. Run ``chmod +x ./download_data.sh && ./download_data.sh``.
 1. Try running a training example, if the import of torch_geometric fails, follow [this.](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)

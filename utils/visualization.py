@@ -43,14 +43,12 @@ def visualize_graph(
         nx.draw_networkx_edges(
             true_network,
             pos=pos,
-            linewidths=1,
             arrowstyle="-",
             style="dashed",
             alpha=0.8,
             node_size=15,
             edge_color="white",
             arrowsize=1,
-            with_labels=False,
             connectionstyle="arc3,rad=0.2",
         )
         nx.draw_networkx(
